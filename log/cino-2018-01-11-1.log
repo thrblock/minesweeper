@@ -1,0 +1,321 @@
+2018-01-10 16:16:20 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 16:16:20 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 16:16:20 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,301,320
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,306,325
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,319,333
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,325,337
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,331,341
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,337,345
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,343,348
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,347,350
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,353,352
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,358,354
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,361,356
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,364,356
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,371,359
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,376,361
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,381,364
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,389,366
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,394,370
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,399,371
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,416,379
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,436,391
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,449,400
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,466,409
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,477,418
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,487,425
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,491,429
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,492,430
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,494,431
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,503,438
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,508,440
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,520,447
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,530,453
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,536,457
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,541,459
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,543,460
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,546,460
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,549,462
+2018-01-10 16:16:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,551,464
+2018-01-10 16:18:13 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 16:18:13 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 16:18:14 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 16:18:14 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 16:18:14 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 16:18:14 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 16:18:14 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 16:18:17 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 16:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 16:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 16:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 16:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 16:18:18 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,1304,745
+2018-01-10 16:18:23 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,301,320
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,303,321
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,305,322
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,312,327
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,330,337
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,354,349
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,374,357
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,450,386
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,476,397
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,501,406
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,549,425
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,566,430
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,579,433
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,591,436
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,601,440
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,607,441
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,612,443
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,616,444
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,618,447
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,620,447
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,623,449
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,625,450
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,627,450
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,631,452
+2018-01-10 16:18:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,632,452
+2018-01-10 16:18:28 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 16:18:37 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 16:18:37 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 16:18:37 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 16:18:37 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 16:18:37 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 16:18:37 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 16:18:37 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 16:18:40 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 16:18:40 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 16:18:40 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 16:18:40 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 16:18:40 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 16:18:45 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 16:18:45 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 16:18:45 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 16:18:45 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 16:18:45 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 16:18:45 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 16:18:45 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 16:18:48 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 16:18:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 16:18:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 16:18:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 16:18:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 16:19:12 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:04:01 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:04:01 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:04:01 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:04:01 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:04:01 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:04:02 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:04:02 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:04:05 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:04:05 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:04:05 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:04:05 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:04:05 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:04:09 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:04:11 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:04:11 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:04:11 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:04:11 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:04:11 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:04:11 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:04:11 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:04:14 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:04:14 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:04:14 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:04:14 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:04:14 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:07:47 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:09:52 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:09:52 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:09:52 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:09:52 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:09:52 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:09:53 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:09:53 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:09:55 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:09:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:09:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:09:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:09:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:10:06 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:10:06 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:10:06 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:10:06 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:10:06 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:10:06 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:10:06 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:10:09 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:10:09 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:10:09 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:10:09 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:10:09 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:10:37 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:10:37 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:12:52 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:12:52 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:12:52 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:12:52 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:12:52 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:12:52 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:12:52 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:12:55 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:14:00 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:14:00 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:14:01 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:14:01 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:14:01 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:14:01 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:14:01 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:14:04 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:14:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:14:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:14:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:14:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:14:07 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:14:22 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:14:22 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:14:23 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:14:23 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:14:23 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:14:23 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:14:23 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:14:26 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:14:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:14:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:14:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:14:26 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:15:14 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:15:19 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:15:19 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:15:20 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:15:20 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:15:20 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:15:20 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:15:20 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:15:23 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:15:23 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:15:23 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:15:23 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:15:23 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:15:24 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,1304,745
+2018-01-10 17:16:52 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:16:54 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:18:13 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:18:13 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:18:14 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:18:14 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:18:14 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:18:14 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:18:14 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:18:17 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:18:17 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:18:33 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:18:33 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:18:34 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:18:34 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:18:34 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:18:34 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:18:34 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:18:37 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:18:37 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:18:37 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:18:37 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:18:37 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:43:41 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:43:59 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:43:59 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:43:59 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:43:59 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:43:59 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:43:59 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:43:59 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:44:02 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:44:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:44:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:44:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:44:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:44:11 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 17:44:29 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:44:29 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:44:30 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:44:30 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:44:30 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:44:30 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:44:30 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:44:33 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:44:33 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:44:33 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:44:33 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:44:33 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:44:52 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 17:44:52 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 17:44:53 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 17:44:53 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 17:44:53 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 17:44:53 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 17:44:53 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 17:44:56 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 17:44:56 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 17:44:56 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 17:44:56 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 17:44:56 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 17:56:25 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-10 18:19:59 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-10 18:19:59 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-10 18:20:00 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-10 18:20:00 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-10 18:20:00 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-10 18:20:00 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-10 18:20:00 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-10 18:20:03 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-10 18:20:03 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-10 18:20:03 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-10 18:20:03 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-10 18:20:03 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-10 18:35:34 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-11 00:25:00 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-11 00:25:00 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-11 00:25:01 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-11 00:25:01 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-11 00:25:01 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-11 00:25:01 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-11 00:25:01 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-11 00:25:04 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-11 00:25:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-11 00:25:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-11 00:25:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-11 00:25:04 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-11 00:36:09 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-11 00:45:21 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-11 00:45:21 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-11 00:45:22 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-11 00:45:22 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-11 00:45:22 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-11 00:45:22 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-11 00:45:22 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-11 00:45:25 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-11 00:45:25 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-11 00:45:25 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-11 00:45:25 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-11 00:45:25 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-11 00:45:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2018-01-11 00:47:16 INFO  com.thrblock.cino.util.SmartConfig - source:frame.smt
+2018-01-11 00:47:16 INFO  com.thrblock.cino.util.SmartConfig - OS Mapped:WINDOWS 10,Location:./cino-frame.properties
+2018-01-11 00:47:16 INFO  com.thrblock.cino.CinoAnnotationProcessor - processing annotation of beans
+2018-01-11 00:47:16 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2018-01-11 00:47:16 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2018-01-11 00:47:16 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2018-01-11 00:47:16 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2018-01-11 00:47:19 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2018-01-11 00:47:19 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2018-01-11 00:47:19 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce MX150/PCIe/SSE2
+2018-01-11 00:47:19 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 NVIDIA 382.64
+2018-01-11 00:47:19 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,300,320
+2018-01-11 00:47:20 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL reshape:0,0,1304,745
