@@ -1,13 +1,15 @@
 package com.thrblock.sweeper.entity;
 
-import com.thrblock.cino.component.CinoInstance;
-import com.thrblock.cino.glanimate.GLAnimate;
+import java.awt.event.MouseEvent;
+
+import com.thrblock.cino.component.CinoComponent;
+import com.thrblock.cino.glanimate.fragment.IPureFragment;
+import com.thrblock.cino.glanimate.fragment.SwitchFragment;
 import com.thrblock.cino.glshape.GLImage;
-import com.thrblock.cino.io.MouseEvent;
 import com.thrblock.sweeper.SweeperConstant;
 import com.thrblock.sweeper.component.SweeperComponent.SweeperEvent;
 
-public class Block extends CinoInstance {
+public class Block extends CinoComponent {
     private GLImage img;
     private int num;
     private int i;
@@ -16,9 +18,14 @@ public class Block extends CinoInstance {
     private boolean fliped;
     private boolean marked;
     private boolean unavailable;
-    public enum MarkEvent{MARK,UNMARK}
+    private boolean pressing = false;
     
-    private GLAnimate flashAni;
+    private SwitchFragment flashAni;
+
+    public enum MarkEvent {
+        MARK, UNMARK
+    }
+
     public Block(int i, int j, SweeperTexture stexture) {
         this.i = i;
         this.j = j;
@@ -28,12 +35,23 @@ public class Block extends CinoInstance {
     @Override
     public void init() {
         img = shapeFactory.buildGLImage(0, 0, SweeperConstant.AREA_WH, SweeperConstant.AREA_WH, stexture.getUnshow());
-        flashAni = animateFactory.build()
-                .addOnce(() -> img.setTexture(stexture.getDigs()[0]))
-                .add(() -> !(mouseIO.isMouseButtonDown(1) && mouseIO.isMouseButtonDown(3)))
-                .addOnce(() -> img.setTexture(stexture.getUnshow()));
         
-        autoShapePressed(img, this::mouseLogic);
+        flashAni = IPureFragment.of(() -> img.setTexture(stexture.getDigs()[0]))
+        .runOnece()
+        .andThen(
+                IPureFragment.of(() -> img.setTexture(stexture.getUnshow()))
+                .runOnece()
+                .whenThen(() -> !(mouseIO.isMouseButtonDown(1) && mouseIO.isMouseButtonDown(3)))
+                )
+        .wrapSwitch();
+        
+        auto(flashAni);
+        
+        initMouse();
+        initEvent();
+    }
+
+    private void initEvent() {
         eventBus.mapEvent(SweeperEvent.FAIL, () -> {
             unavailable = true;
             if (!fliped && marked && num != -1) {
@@ -44,7 +62,7 @@ public class Block extends CinoInstance {
         });
         eventBus.mapEvent(SweeperEvent.CLEAR, () -> {
             unavailable = true;
-            if(!marked && num == -1) {
+            if (!marked && num == -1) {
                 img.setTexture(stexture.getFlag());
             }
         });
@@ -56,21 +74,35 @@ public class Block extends CinoInstance {
         });
     }
 
+    private void initMouse() {
+        autoShapePressed(img, e -> {
+            if (!unavailable) {
+                if (!fliped && e.getButton() == 1) {
+                    pressing = true;
+                    img.setTexture(stexture.getDigs()[0]);
+                } else if (fliped && doubleClicked(e)) {
+                    eventBus.pushEvent(new Predict(num, i, j));
+                }
+            }
+        });
+        auto(() -> !unavailable && !fliped && pressing && !img.isMouseInside(), () -> {
+            pressing = false;
+            img.setTexture(stexture.getUnshow());
+        });
+        autoShapeReleased(img, this::mouseLogic);
+    }
+
     public void flash() {
+        flashAni.reset();
         flashAni.enable();
     }
 
     private void mouseLogic(MouseEvent e) {
-        if (unavailable) {
+        if (unavailable || fliped) {
             return;
         }
-        if (fliped) {
-            if (doubleClicked(e)) {
-                eventBus.pushEvent(new Predict());
-            }
-            return;
-        }
-        if (e.getButton() == 1 && !marked) {
+        if (e.getButton() == 1 && !marked && pressing) {
+            pressing = false;
             flip();
         } else if (e.getButton() == 3) {
             markFlag();
@@ -94,7 +126,7 @@ public class Block extends CinoInstance {
     }
 
     public void flip() {
-        if(fliped) {
+        if (fliped) {
             return;
         }
         fliped = true;
@@ -102,9 +134,9 @@ public class Block extends CinoInstance {
             img.setTexture(stexture.getMineExplode());
         } else {
             img.setTexture(stexture.getDigs()[num]);
-            eventBus.pushEvent(new Score());
+            eventBus.pushEvent(SweeperEvent.SCORE);
         }
-        eventBus.pushEvent(this);
+        eventBus.pushEvent(new Flip(num, i, j));
     }
 
     public boolean isFliped() {
@@ -138,22 +170,5 @@ public class Block extends CinoInstance {
 
     public int getJ() {
         return j;
-    }
-
-    public class Predict {
-        public int getNum() {
-            return num;
-        }
-
-        public int getI() {
-            return i;
-        }
-
-        public int getJ() {
-            return j;
-        }
-    }
-
-    public class Score {
     }
 }

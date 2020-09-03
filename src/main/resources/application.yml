@@ -1,0 +1,17 @@
+cino:
+  frame:
+    type: awt
+    title: Mine Sweeper
+    doublebuffer: true
+    vsync: false
+    fullscreen: false
+    fps: 60
+    flexible: true
+    hidemouse: false
+    flexmode: 0
+    screen:
+      width: 505
+      height: 320
+  debug.enable: true
+  storage.location: ./
+  layer.maxlayer: 128

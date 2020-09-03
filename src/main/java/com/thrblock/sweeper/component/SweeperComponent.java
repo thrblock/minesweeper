@@ -1,12 +1,15 @@
 package com.thrblock.sweeper.component;
 
 import java.awt.Color;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseWheelEvent;
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.thrblock.cino.annotation.BootComponent;
@@ -14,26 +17,63 @@ import com.thrblock.cino.component.CinoComponent;
 import com.thrblock.cino.glshape.GLRect;
 import com.thrblock.cino.gltexture.GLIOTexture;
 import com.thrblock.cino.gltexture.GLTexture;
+import com.thrblock.cino.gltransform.GLTransform;
 import com.thrblock.cino.util.math.CRand;
 import com.thrblock.cino.util.structure.IntBoxer;
 import com.thrblock.sweeper.SweeperConstant;
 import com.thrblock.sweeper.entity.Block;
-import com.thrblock.sweeper.entity.Block.Predict;
-import com.thrblock.sweeper.entity.Block.Score;
+import com.thrblock.sweeper.entity.Flip;
+import com.thrblock.sweeper.entity.Predict;
 import com.thrblock.sweeper.entity.SweeperTexture;
 
 @Component
 @BootComponent
 public class SweeperComponent extends CinoComponent {
+    
+    @Autowired
+    private BlockFactory blockFactory;
+    
     public enum SweeperEvent {
-        FAIL, CLEAR, START, RELOAD
+        FAIL, CLEAR, START, RELOAD, SCORE
     }
 
     @Override
     public void init() throws Exception {
         autoShowHide();
+        initTransform();
         buildBackGround();
         initArea(SweeperConstant.W_NUM, SweeperConstant.H_NUM);
+    }
+
+    private void initTransform() {
+        GLTransform t = new GLTransform();
+        transformManager.addBeforeLayer(t, 0);
+        autoMapEvent(MouseWheelEvent.class, e -> {
+            if (e.getWheelRotation() > 0) {
+                t.setScale(t.getScaleX() * 0.9f);
+            } else {
+                t.setScale(t.getScaleX() * 1.1f);
+            }
+        });
+        auto(() -> {
+            if(keyIO.isKeyDown(KeyEvent.VK_UP)) {
+                t.setTranslateY(t.getTranslateY() + 1f);
+            } else if(keyIO.isKeyDown(KeyEvent.VK_DOWN)) {
+                t.setTranslateY(t.getTranslateY() - 1f);
+            }
+            
+            if(keyIO.isKeyDown(KeyEvent.VK_LEFT)) {
+                t.setTranslateX(t.getTranslateX() - 1f);
+            } else if(keyIO.isKeyDown(KeyEvent.VK_RIGHT)) {
+                t.setTranslateX(t.getTranslateX() + 1f);
+            }
+            
+            if(keyIO.isKeyDown(KeyEvent.VK_Q)) {
+                t.setRoteAngle(t.getRoteAngle() + 1);
+            } else if(keyIO.isKeyDown(KeyEvent.VK_E)) {
+                t.setRoteAngle(t.getRoteAngle() - 1);
+            }
+        });
     }
 
     private void buildBackGround() {
@@ -83,15 +123,15 @@ public class SweeperComponent extends CinoComponent {
 
     private void initLogic(Block[][] area) {
         IntBoxer flipCount = new IntBoxer();
-        eventBus.mapEvent(Block.class, e -> {
-            if (e.getNum() == -1) {
+        eventBus.mapEvent(Flip.class, e -> {
+            if (e.num == -1) {
                 eventBus.pushEvent(SweeperEvent.FAIL);
-            } else if (e.getNum() == 0) {
-                flipAround(area, e);
+            } else if (e.num == 0) {
+                flipAround(area, e.i, e.j);
             }
         });
         eventBus.mapEvent(Predict.class, p -> predict(area, p));
-        eventBus.mapEvent(Score.class, s -> {
+        eventBus.mapEvent(SweeperEvent.SCORE, () -> {
             flipCount.setValue(flipCount.getValue() + 1);
             if (flipCount.getValue() == 1) {
                 eventBus.pushEvent(SweeperEvent.START);
@@ -122,25 +162,20 @@ public class SweeperComponent extends CinoComponent {
     }
 
     private void predict(Block[][] area, Predict p) {
-        List<Block> unMarkedAndFliped = new LinkedList<>();
+        List<Block> unTouched = new LinkedList<>();
         IntBoxer markNum = new IntBoxer();
-        loopAround(area, p.getI(), p.getJ(), a -> {
+        loopAround(area, p.i, p.j, a -> {
             if (a.isMarked()) {
                 markNum.setValue(markNum.getValue() + 1);
-            }
-            if (!a.isMarked() && !a.isFliped()) {
-                unMarkedAndFliped.add(a);
+            } else if (!a.isFliped()) {
+                unTouched.add(a);
             }
         });
-        if (markNum.getValue() != p.getNum()) {
-            unMarkedAndFliped.forEach(Block::flash);
-        } else {
-            unMarkedAndFliped.forEach(Block::flip);
-        }
+        unTouched.forEach(markNum.getValue() == p.num ? Block::flip : Block::flash);
     }
 
-    private void flipAround(Block[][] area, Block e) {
-        loopAround(area, e.getI(), e.getJ(), block -> {
+    private void flipAround(Block[][] area, int i, int j) {
+        loopAround(area, i, j, block -> {
             if (!block.isMarked()) {
                 block.flip();
             }
@@ -159,7 +194,7 @@ public class SweeperComponent extends CinoComponent {
         Block[][] result = new Block[w][h];
         for (int i = 0; i < w; i++) {
             for (int j = 0; j < h; j++) {
-                result[i][j] = injectInstance(new Block(i, j, stexture));
+                result[i][j] = blockFactory.block(i, j, stexture);
                 result[i][j].placeAtScale(w, h);
             }
         }
