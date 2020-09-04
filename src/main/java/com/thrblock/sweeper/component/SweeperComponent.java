@@ -1,8 +1,6 @@
 package com.thrblock.sweeper.component;
 
 import java.awt.Color;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseWheelEvent;
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
@@ -17,7 +15,6 @@ import com.thrblock.cino.component.CinoComponent;
 import com.thrblock.cino.glshape.GLRect;
 import com.thrblock.cino.gltexture.GLIOTexture;
 import com.thrblock.cino.gltexture.GLTexture;
-import com.thrblock.cino.gltransform.GLTransform;
 import com.thrblock.cino.util.math.CRand;
 import com.thrblock.cino.util.structure.IntBoxer;
 import com.thrblock.sweeper.SweeperConstant;
@@ -40,40 +37,8 @@ public class SweeperComponent extends CinoComponent {
     @Override
     public void init() throws Exception {
         autoShowHide();
-        initTransform();
         buildBackGround();
         initArea(SweeperConstant.W_NUM, SweeperConstant.H_NUM);
-    }
-
-    private void initTransform() {
-        GLTransform t = new GLTransform();
-        transformManager.addBeforeLayer(t, 0);
-        autoMapEvent(MouseWheelEvent.class, e -> {
-            if (e.getWheelRotation() > 0) {
-                t.setScale(t.getScaleX() * 0.9f);
-            } else {
-                t.setScale(t.getScaleX() * 1.1f);
-            }
-        });
-        auto(() -> {
-            if(keyIO.isKeyDown(KeyEvent.VK_UP)) {
-                t.setTranslateY(t.getTranslateY() + 1f);
-            } else if(keyIO.isKeyDown(KeyEvent.VK_DOWN)) {
-                t.setTranslateY(t.getTranslateY() - 1f);
-            }
-            
-            if(keyIO.isKeyDown(KeyEvent.VK_LEFT)) {
-                t.setTranslateX(t.getTranslateX() - 1f);
-            } else if(keyIO.isKeyDown(KeyEvent.VK_RIGHT)) {
-                t.setTranslateX(t.getTranslateX() + 1f);
-            }
-            
-            if(keyIO.isKeyDown(KeyEvent.VK_Q)) {
-                t.setRoteAngle(t.getRoteAngle() + 1);
-            } else if(keyIO.isKeyDown(KeyEvent.VK_E)) {
-                t.setRoteAngle(t.getRoteAngle() - 1);
-            }
-        });
     }
 
     private void buildBackGround() {

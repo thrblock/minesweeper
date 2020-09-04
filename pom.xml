@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.thrblock</groupId>
 		<artifactId>cino-root</artifactId>
-		<version>0.0.6.20200903</version>
+		<version>0.0.6.20200904</version>
 	</parent>
 	<groupId>com.thrblock.game</groupId>
 	<artifactId>minesweeper</artifactId>
