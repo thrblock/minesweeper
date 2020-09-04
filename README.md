@@ -4,7 +4,7 @@
 基于之前开发的cino项目搭建
 [GitHub](https://github.com/thrblock/cino)
 
-![DEMO](https://raw.githubusercontent.com/thrblock/minesweeper/master/minesweeper.png) 
+<img src="https://raw.githubusercontent.com/thrblock/minesweeper/master/minesweeper.png" height="200">
 
 ## 🚩回顾一下具体规则
 ![F1](https://raw.githubusercontent.com/thrblock/minesweeper/master/mineSrc/1.png) 
