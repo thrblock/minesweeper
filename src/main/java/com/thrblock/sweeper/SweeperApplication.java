@@ -8,13 +8,11 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-
 @SpringBootApplication
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan(value = {"com.thrblock.sweeper"})
 public class SweeperApplication implements CommandLineRunner {
-    
     
     public static void main(String[] args) {
         System.setProperty("sun.java2d.uiScale", "1.0");

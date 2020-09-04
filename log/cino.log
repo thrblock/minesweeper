@@ -1,231 +1,225 @@
-2020-09-03 19:54:41 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-03 19:54:41 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
-2020-09-03 19:54:41 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
-2020-09-03 19:54:41 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
-2020-09-03 19:54:41 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
-2020-09-03 19:54:42 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@150d6eaf
-2020-09-03 19:54:42 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
-2020-09-03 19:54:42 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
-2020-09-03 19:54:42 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
-2020-09-03 19:54:42 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
-2020-09-03 19:54:42 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
-2020-09-03 19:54:42 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
-2020-09-03 19:54:42 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
-2020-09-03 19:54:55 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
-2020-09-03 19:54:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
-2020-09-03 19:54:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
-2020-09-03 19:54:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 5]
-2020-09-03 19:54:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:Intel(R) UHD Graphics 630
-2020-09-03 19:54:55 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 - Build 26.20.100.7985
-2020-09-03 19:54:55 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
-2020-09-03 19:54:55 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 15.228 seconds (JVM running for 16.014)
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,522,329
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,527,333
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,636,405
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,656,421
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,694,427
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,721,441
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,814,504
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,847,526
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,874,542
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,883,548
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,887,551
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,944,587
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1063,650
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1185,719
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1246,754
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1290,772
-2020-09-03 19:55:29 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1293,773
-2020-09-03 19:55:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1371,825
-2020-09-03 19:55:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1373,825
-2020-09-03 20:11:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1408,864
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1482,929
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1693,1071
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1839,1152
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2302,1361
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2325,1369
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2328,1369
-2020-09-03 20:11:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2330,1367
-2020-09-03 20:28:51 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
-2020-09-03 20:30:23 INFO  com.thrblock.sweeper.SweeperApplication - Starting SweeperApplication on LIZEPU-XPS with PID 22188 (C:\Users\lizepu\work\myproject\minesweeper\target\classes started by lizepu in C:\Users\lizepu\work\myproject\minesweeper)
-2020-09-03 20:30:23 INFO  com.thrblock.sweeper.SweeperApplication - No active profile set, falling back to default profiles: default
-2020-09-03 20:30:24 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLScreenSizeChangeListenerHolder' of type [com.thrblock.cino.glprocessor.GLScreenSizeChangeListenerHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-03 20:30:24 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLInitor' of type [com.thrblock.cino.glinitable.GLInitor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-03 20:30:24 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'storage' of type [com.thrblock.cino.storage.Storage] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-03 20:30:24 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-03 20:30:24 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
-2020-09-03 20:30:24 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
-2020-09-03 20:30:24 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
-2020-09-03 20:30:24 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
-2020-09-03 20:30:25 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@37d699a1
-2020-09-03 20:30:25 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
-2020-09-03 20:30:25 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
-2020-09-03 20:30:25 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
-2020-09-03 20:30:25 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
-2020-09-03 20:30:25 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
-2020-09-03 20:30:25 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
-2020-09-03 20:30:25 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
-2020-09-03 20:30:36 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
-2020-09-03 20:30:36 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
-2020-09-03 20:30:36 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
-2020-09-03 20:30:36 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 5]
-2020-09-03 20:30:36 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:Intel(R) UHD Graphics 630
-2020-09-03 20:30:36 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 - Build 26.20.100.7985
-2020-09-03 20:30:36 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
-2020-09-03 20:30:36 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 13.482 seconds (JVM running for 14.263)
-2020-09-03 20:30:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,532,332
-2020-09-03 20:30:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,547,342
-2020-09-03 20:30:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,967,566
-2020-09-03 20:30:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,991,580
-2020-09-03 20:30:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1076,622
-2020-09-03 20:30:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1171,670
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1249,715
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1287,736
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1312,751
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1313,751
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1319,752
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1322,752
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1326,755
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1342,767
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1396,807
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1423,839
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1429,843
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1430,843
-2020-09-03 20:30:43 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1436,846
-2020-09-03 20:30:44 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1436,847
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1447,854
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1606,937
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1790,1035
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1909,1090
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2028,1145
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2045,1155
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2086,1173
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2094,1176
-2020-09-03 20:30:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1178
-2020-09-03 20:31:01 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1179
-2020-09-03 20:31:01 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1182
-2020-09-03 20:31:01 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1184
-2020-09-03 20:31:01 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1192
-2020-09-03 20:31:01 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1203
-2020-09-03 20:31:01 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1205
-2020-09-03 20:31:04 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,3840,2004
-2020-09-03 20:31:11 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,2095,1205
-2020-09-03 20:31:25 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
-2020-09-04 13:42:08 INFO  com.thrblock.sweeper.SweeperApplication - Starting SweeperApplication on LIZEPU-XPS with PID 27752 (C:\Users\lizepu\work\myproject\minesweeper\target\classes started by lizepu in C:\Users\lizepu\work\myproject\minesweeper)
-2020-09-04 13:42:08 INFO  com.thrblock.sweeper.SweeperApplication - No active profile set, falling back to default profiles: default
-2020-09-04 13:42:09 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLScreenSizeChangeListenerHolder' of type [com.thrblock.cino.glprocessor.GLScreenSizeChangeListenerHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:42:09 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLInitor' of type [com.thrblock.cino.glinitable.GLInitor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:42:09 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'storage' of type [com.thrblock.cino.storage.Storage] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:42:09 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:42:09 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
-2020-09-04 13:42:09 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
-2020-09-04 13:42:09 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
-2020-09-04 13:42:09 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
-2020-09-04 13:42:10 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@5ebbde60
-2020-09-04 13:42:10 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
-2020-09-04 13:42:10 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
-2020-09-04 13:42:10 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
-2020-09-04 13:42:10 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
-2020-09-04 13:42:10 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
-2020-09-04 13:42:10 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
-2020-09-04 13:42:10 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
-2020-09-04 13:42:22 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
-2020-09-04 13:42:22 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
-2020-09-04 13:42:22 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
-2020-09-04 13:42:22 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 5]
-2020-09-04 13:42:22 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:Intel(R) UHD Graphics 630
-2020-09-04 13:42:22 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 - Build 26.20.100.7985
-2020-09-04 13:42:22 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
-2020-09-04 13:42:22 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 14.401 seconds (JVM running for 15.285)
-2020-09-04 13:42:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,533,381
-2020-09-04 13:42:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1163,852
-2020-09-04 13:42:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1310,930
-2020-09-04 13:42:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1395,987
-2020-09-04 13:42:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1468,1020
-2020-09-04 13:42:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1519,1026
-2020-09-04 13:42:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1598,1041
-2020-09-04 13:42:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1626,1047
-2020-09-04 13:42:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1658,1047
-2020-09-04 13:42:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1662,1047
-2020-09-04 13:42:32 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1664,1047
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1665,1047
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1667,1047
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1668,1047
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1670,1046
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1689,1046
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1691,1046
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1692,1046
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1694,1046
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1695,1046
-2020-09-04 13:42:33 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1697,1046
-2020-09-04 13:45:23 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
-2020-09-04 13:45:44 INFO  com.thrblock.sweeper.SweeperApplication - Starting SweeperApplication on LIZEPU-XPS with PID 16340 (C:\Users\lizepu\work\myproject\minesweeper\target\classes started by lizepu in C:\Users\lizepu\work\myproject\minesweeper)
-2020-09-04 13:45:44 INFO  com.thrblock.sweeper.SweeperApplication - No active profile set, falling back to default profiles: default
-2020-09-04 13:45:45 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLScreenSizeChangeListenerHolder' of type [com.thrblock.cino.glprocessor.GLScreenSizeChangeListenerHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:45:45 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLInitor' of type [com.thrblock.cino.glinitable.GLInitor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:45:45 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'storage' of type [com.thrblock.cino.storage.Storage] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:45:45 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-04 13:45:45 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
-2020-09-04 13:45:45 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
-2020-09-04 13:45:45 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
-2020-09-04 13:45:45 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
-2020-09-04 13:45:45 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@2b44605c
-2020-09-04 13:45:45 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
-2020-09-04 13:45:45 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
-2020-09-04 13:45:45 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
-2020-09-04 13:45:45 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
-2020-09-04 13:45:46 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
-2020-09-04 13:45:46 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
-2020-09-04 13:45:46 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
-2020-09-04 13:45:58 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
-2020-09-04 13:45:58 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
-2020-09-04 13:45:58 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
-2020-09-04 13:45:58 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 5]
-2020-09-04 13:45:58 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:Intel(R) UHD Graphics 630
-2020-09-04 13:45:58 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 - Build 26.20.100.7985
-2020-09-04 13:45:58 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
-2020-09-04 13:45:58 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 14.597 seconds (JVM running for 15.361)
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,532,327
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,662,398
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,690,408
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,709,422
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,723,430
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,754,448
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,815,486
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,854,508
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,898,535
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,916,547
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,931,560
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,947,571
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1001,613
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1055,652
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1105,686
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1229,766
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1255,781
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1262,789
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1264,789
-2020-09-04 13:46:03 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1264,790
-2020-09-04 13:46:04 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1304,799
-2020-09-04 13:46:04 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1355,815
-2020-09-04 13:46:04 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1358,816
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1376,818
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1410,826
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1415,829
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1415,858
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1414,859
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1413,862
-2020-09-04 13:46:05 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1412,862
-2020-09-04 13:46:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1412,868
-2020-09-04 13:46:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1412,869
-2020-09-04 13:46:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1412,872
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1415,872
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1416,872
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1418,872
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1419,872
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1436,877
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1458,888
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1468,895
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1481,904
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1486,907
-2020-09-04 13:46:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1487,907
-2020-09-04 13:47:37 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,799,493
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,853,526
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,867,532
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,877,535
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,907,547
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,927,555
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,938,558
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,946,559
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,949,561
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,950,561
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,951,561
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,953,561
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,954,561
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,956,561
+2020-09-04 14:13:30 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,957,561
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,959,561
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,960,561
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,963,561
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,964,561
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,964,562
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,966,562
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,968,564
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,970,565
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,971,567
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,974,569
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,977,571
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,978,571
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,980,574
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,981,574
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,984,574
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,984,575
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,987,577
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,988,577
+2020-09-04 14:13:31 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,988,578
+2020-09-04 14:14:47 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2020-09-04 16:50:47 INFO  com.thrblock.sweeper.SweeperApplication - Starting SweeperApplication on LIZEPU-XPS with PID 14112 (C:\Users\lizepu\work\myproject\minesweeper\target\classes started by lizepu in C:\Users\lizepu\work\myproject\minesweeper)
+2020-09-04 16:50:47 INFO  com.thrblock.sweeper.SweeperApplication - No active profile set, falling back to default profiles: default
+2020-09-04 16:50:48 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLScreenSizeChangeListenerHolder' of type [com.thrblock.cino.glprocessor.GLScreenSizeChangeListenerHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 16:50:48 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLInitor' of type [com.thrblock.cino.glinitable.GLInitor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 16:50:48 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'storage' of type [com.thrblock.cino.storage.Storage] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 16:50:48 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 16:50:48 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
+2020-09-04 16:50:48 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2020-09-04 16:50:48 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2020-09-04 16:50:48 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
+2020-09-04 16:50:49 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@54489296
+2020-09-04 16:50:49 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
+2020-09-04 16:50:49 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
+2020-09-04 16:50:49 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2020-09-04 16:50:49 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2020-09-04 16:50:49 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
+2020-09-04 16:50:49 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
+2020-09-04 16:50:49 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
+2020-09-04 16:51:01 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:Win32GraphicsDevice[screen=0]
+2020-09-04 16:51:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
+2020-09-04 16:51:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2020-09-04 16:51:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 5]
+2020-09-04 16:51:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:Intel(R) UHD Graphics 630
+2020-09-04 16:51:02 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.5.0 - Build 26.20.100.7985
+2020-09-04 16:51:02 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
+2020-09-04 16:51:02 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 14.756 seconds (JVM running for 15.53)
+2020-09-04 16:51:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,605,387
+2020-09-04 16:51:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,639,409
+2020-09-04 16:51:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1147,683
+2020-09-04 16:51:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1354,792
+2020-09-04 16:51:06 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1560,906
+2020-09-04 16:51:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1581,914
+2020-09-04 16:51:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1594,917
+2020-09-04 16:51:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1596,918
+2020-09-04 16:51:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1603,924
+2020-09-04 16:51:07 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1605,924
+2020-09-04 16:51:08 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1609,928
+2020-09-04 16:51:08 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1612,931
+2020-09-04 16:51:08 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1614,934
+2020-09-04 16:51:11 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1643,973
+2020-09-04 16:51:11 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1644,975
+2020-09-04 16:51:11 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1647,979
+2020-09-04 16:51:11 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1648,982
+2020-09-04 16:51:38 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2020-09-04 22:03:38 INFO  com.thrblock.sweeper.SweeperApplication - Starting SweeperApplication on LIZEPU-XPS with PID 28704 (C:\Users\lizepu\work\myproject\minesweeper\target\classes started by lizepu in C:\Users\lizepu\work\myproject\minesweeper)
+2020-09-04 22:03:38 INFO  com.thrblock.sweeper.SweeperApplication - No active profile set, falling back to default profiles: default
+2020-09-04 22:03:39 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLScreenSizeChangeListenerHolder' of type [com.thrblock.cino.glprocessor.GLScreenSizeChangeListenerHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:03:39 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLInitor' of type [com.thrblock.cino.glinitable.GLInitor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:03:39 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'storage' of type [com.thrblock.cino.storage.Storage] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:03:39 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:03:39 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
+2020-09-04 22:03:39 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2020-09-04 22:03:39 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2020-09-04 22:03:39 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
+2020-09-04 22:03:40 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@554566a8
+2020-09-04 22:03:40 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
+2020-09-04 22:03:40 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
+2020-09-04 22:03:40 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2020-09-04 22:03:40 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2020-09-04 22:03:40 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
+2020-09-04 22:03:40 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
+2020-09-04 22:03:40 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
+2020-09-04 22:03:48 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:D3DGraphicsDevice[screen=0]
+2020-09-04 22:03:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
+2020-09-04 22:03:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2020-09-04 22:03:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 6]
+2020-09-04 22:03:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce RTX 2080 Ti/PCIe/SSE2
+2020-09-04 22:03:48 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.6.0 NVIDIA 432.00
+2020-09-04 22:03:48 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
+2020-09-04 22:03:48 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 10.456 seconds (JVM running for 11.344)
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,677,399
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,951,520
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1206,632
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1292,679
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1439,769
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1491,795
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1719,910
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1773,941
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1897,1018
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1900,1019
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1910,1035
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1910,1037
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1910,1041
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1934,1069
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1935,1070
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1937,1071
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1938,1071
+2020-09-04 22:03:56 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1940,1071
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1941,1071
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1943,1071
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1936,1082
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1936,1085
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1933,1086
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1086
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1089
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1092
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1098
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1099
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1102
+2020-09-04 22:03:57 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1932,1110
+2020-09-04 22:08:31 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
+2020-09-04 22:18:26 INFO  com.thrblock.sweeper.SweeperApplication - Starting SweeperApplication on LIZEPU-XPS with PID 5780 (C:\Users\lizepu\work\myproject\minesweeper\target\classes started by lizepu in C:\Users\lizepu\work\myproject\minesweeper)
+2020-09-04 22:18:26 INFO  com.thrblock.sweeper.SweeperApplication - No active profile set, falling back to default profiles: default
+2020-09-04 22:18:27 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLScreenSizeChangeListenerHolder' of type [com.thrblock.cino.glprocessor.GLScreenSizeChangeListenerHolder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:18:27 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'GLInitor' of type [com.thrblock.cino.glinitable.GLInitor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:18:27 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'storage' of type [com.thrblock.cino.storage.Storage] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:18:27 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'componentAnnotationProcessor' of type [com.thrblock.cino.annotation.proc.ComponentAnnotationProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 22:18:27 INFO  com.thrblock.sweeper.component.SweeperComponent - init-tree:<root>->SweeperComponent
+2020-09-04 22:18:27 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:0
+2020-09-04 22:18:27 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:0
+2020-09-04 22:18:27 INFO  com.thrblock.sweeper.entity.Block - init-tree:<root>->SweeperComponent->Block
+2020-09-04 22:18:28 INFO  com.thrblock.cino.annotation.proc.CinoAnnotationProcessor - boot component found:com.thrblock.sweeper.component.SweeperComponent@7c4b5ceb
+2020-09-04 22:18:28 INFO  com.thrblock.sweeper.component.SweeperPannel - init-tree:<root>->SweeperPannel
+2020-09-04 22:18:28 INFO  com.thrblock.rectbase.button.GLImgButton - init-tree:<root>->SweeperPannel->GLImgButton
+2020-09-04 22:18:28 WARN  com.thrblock.cino.gllayer.GLLayerManager - layer not found:1
+2020-09-04 22:18:28 INFO  com.thrblock.cino.gllayer.GLLayerManager - layer auto generated:1
+2020-09-04 22:18:28 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->SweeperPannel->CharRectArea
+2020-09-04 22:18:28 INFO  com.thrblock.cino.debug.DebugPannel - init-tree:<root>->DebugPannel
+2020-09-04 22:18:28 INFO  com.thrblock.cino.util.charprocess.CharRectArea - init-tree:<root>->DebugPannel->CharRectArea
+2020-09-04 22:18:35 INFO  com.thrblock.cino.frame.AWTFrameFactory - graphics device you are current using:D3DGraphicsDevice[screen=0]
+2020-09-04 22:18:35 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - Opengl debug output enabled.
+2020-09-04 22:18:35 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL init
+2020-09-04 22:18:35 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The opengl version you are current using:[4, 6]
+2020-09-04 22:18:35 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer you are current using:GeForce RTX 2080 Ti/PCIe/SSE2
+2020-09-04 22:18:35 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - The Renderer driver version is 4.6.0 NVIDIA 432.00
+2020-09-04 22:18:35 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,320
+2020-09-04 22:18:35 INFO  com.thrblock.sweeper.SweeperApplication - Started SweeperApplication in 9.582 seconds (JVM running for 10.524)
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,505,322
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,685,401
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,755,418
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,769,421
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,854,462
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,939,524
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,952,539
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1053,609
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1402,804
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1443,834
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1468,851
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1480,865
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1480,866
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1485,877
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1488,890
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1488,891
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1488,893
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1489,897
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1489,903
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1489,908
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1489,921
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1489,935
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1495,946
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1503,960
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1505,962
+2020-09-04 22:18:40 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1505,963
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1506,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1509,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1510,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1515,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1516,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1521,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1525,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1529,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1536,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1539,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1541,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1543,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1545,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1548,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1549,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1552,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1557,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1558,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1559,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1564,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1567,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1568,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1578,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1583,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1588,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1592,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1593,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1596,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1597,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1599,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1600,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1605,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1607,965
+2020-09-04 22:18:41 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1610,965
+2020-09-04 22:18:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1612,965
+2020-09-04 22:18:42 INFO  com.thrblock.cino.gltransform.GLTransformManager - GL reshape:0,0,1613,965
+2020-09-04 22:19:18 INFO  com.thrblock.cino.glprocessor.GLEventProcessor - GL dispose
