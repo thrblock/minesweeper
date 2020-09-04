@@ -35,7 +35,8 @@
 在开局翻开大片连续区域，将意味着后续进程中的猜雷概率对应增高；
 
 <img src="https://raw.githubusercontent.com/thrblock/minesweeper/master/mine/markdown/2-1.gif" height="100">
-```↑经典二选一```
+
+↑经典二选一
 
 ### 双击
 这里说的双击不是只鼠标的连点，而是左右键同时对已翻开的数字格进行点击；
@@ -45,7 +46,8 @@
 否则，会以按压动画的形式标记周围的格子，仅仅是让它们更显眼；
 
 <img src="https://raw.githubusercontent.com/thrblock/minesweeper/master/mine/markdown/guss.gif" height="100">
-```↑在推测错误的情况下贸然使用双击会直接暴死```
+
+↑在推测错误的情况下贸然使用双击会直接暴死</sub>
 
 ## 🚩假装有结尾
 ![F4](https://raw.githubusercontent.com/thrblock/minesweeper/master/mineSrc/26.png) 
